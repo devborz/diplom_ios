@@ -257,7 +257,7 @@ enum CloudError: Int {
         case .invalidData:
             return "invalid data"
         case .shortPassword:
-            return "the password must be longer than 8 characters"
+            return "the password must be longer than 16 characters"
         case .wrongPassword:
             return "the password must include uppercase and lowercase letters, numbers, and special characters"
         case .emailIsAlreadyTaken:
